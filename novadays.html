@@ -1,38 +1,72 @@
-<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<title>Головна сторінка</title>
+		<style type="text/css">
+		.rtx{
+		font-style: italic;
+		}
+		h1{ 
+		text-align: center;
+		font-size: 22px;
+		}
+		h2{ 
+		text-align: center;
+		}
+		#fon
+        {
+        background-color:#8B4513 
+        }
+
+        .kursor
+        {
+        cursor: pointer
+        }
+
+        .ne_parni
+        {
+        background-color:#808080;
+        color:#FFD700
+        }
+
+       .parni
+        {
+        background-color:#FFFFFF;
+        color:#FF4500
+        }
+				
+		</style>
+		
 	</head>
 	<body>
 		<h1>Сьогодення Трищука Богдана Івановича</h1>
 		<p>
-		<a href="index.html">Назад на головну</a>
+		<a href="index.html"class="rtx">Назад на головну</a>
 		</p>
 		
 		<h2>Мій типовий список покупок</h2>
-		<ul><li>Молочні продкути </li>
+		<ul><li class="parni">Молочні продкути 
 		<ul> <li>Молоко
 		<li> Сир
 		<li> Сметана
-		</ul>
-		<li> Хліб</li>
-		<li>Енергетичний напій</li>
-		<li>Злаковийй батончик</li>
-		<li>Крупи</li>
+		</ul></li>
+		<li class="ne_parni"> Хліб</li>
+		<li class="parni">Енергетичний напій</li>
+		<li class="ne_parni">Злаковийй батончик</li>
+		<li class="parni">Крупи
 		<ul><li> Гречка
 		<li>Рис
-		<li>Вівсянка</ul>
-		<li>Соуси</li>
+		<li>Вівсянка</ul></li>
+		<li class="ne_parni">Соуси
 		<ul><li>Кетчуп
 		<li>Майонез
 		<li>Гірчиця
-		</ul>
-		<li>Печиво Орео
-		<li>Чорний Чай 
-		<li>Масло
-		<li>Цукор
-		<li>Перець
+		</ul></li>
+		<li class="parni">Печиво Орео
+		<li class="ne_parni">Чорний Чай 
+		<li class="parni">Масло
+		<li class="ne_parni">Цукор
+		<li class="parni">Перець
 		</ul>
 		
 		<h2>Мій улюблений десерт</h2>
@@ -44,9 +78,9 @@
 		
 		<li>Нам потрібно 500 грам муки.
 		<li> 3 Яйця. 
-		<li> 100 грам шоколадної пудри.
-		<li> Замішати це все в невеличкій кастрюлі до одноріднох маси.
-		<li> Получене тісто потрібдо розкатати скалкою і вирізати невеличкими кружечками.
+		<li class="kursor"> 100 грам шоколадної пудри.
+		<li id="fon"> Замішати це все в невеличкій кастрюлі до одноріднох маси.
+		<li class="kursor"> Получене тісто потрібдо розкатати скалкою і вирізати невеличкими кружечками.
 		
 		</ol>
 		<li>Формування пончиків. <ol>
